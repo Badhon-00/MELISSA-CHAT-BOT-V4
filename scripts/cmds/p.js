@@ -6,18 +6,18 @@ module.exports = {
     countDown: 5, 
     role: 2, 
     shortDescription: { vi: "", en: "Manage pending group requests" }, 
-    longDescription: { vi: "", en: "Approve or cancel pending group requests with Tanisha Bot" }, 
+    longDescription: { vi: "", en: "Approve or cancel pending group requests with Tufa Bot" }, 
     category: "admin" 
   },
 
   langs: { 
     en: { 
-      invalidNumber: "┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗘𝗥𝗥𝗢𝗥 🎀 ───\n│\n├ ❌ 『%1』 is not a valid number!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───",
-      cancelSuccess: "┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡 🎀 ───\n│\n├ 🚫 Refused 『%1』 thread(s)!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───",
-      approveSuccess: "┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡 🎀 ───\n│\n├ ✅ Approved 『%1』 thread(s)!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───",
-      cantGetPendingList: "┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗘𝗥𝗥𝗢𝗥 🎀 ───\n│\n├ 💢 Unable to retrieve pending list!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───",
-      returnListClean: "┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗣𝗘𝗡𝗗𝗜𝗡𝗚 🎀 ───\n│\n├ ✅ No pending requests found!\n├ 🌟 All clear and up to date!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───",
-      approveAllSuccess: "┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡 🎀 ───\n│\n├ 🌠 Successfully approved ALL 『%1』 threads!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───"
+      invalidNumber: "┌─── 🎀 𝗧𝗨𝗙𝗔 𝗘𝗥𝗥𝗢𝗥 🎀 ───\n│\n├ ❌ 『%1』 is not a valid number!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───",
+      cancelSuccess: "┌─── 🎀 𝗧𝗨𝗙𝗔 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡 🎀 ───\n│\n├ 🚫 Refused 『%1』 thread(s)!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───",
+      approveSuccess: "┌─── 🎀 𝗧𝗨𝗙𝗔 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡 🎀 ───\n│\n├ ✅ Approved 『%1』 thread(s)!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───",
+      cantGetPendingList: "┌─── 🎀 𝗧𝗨𝗙𝗔 𝗘𝗥𝗥𝗢𝗥 🎀 ───\n│\n├ 💢 Unable to retrieve pending list!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───",
+      returnListClean: "┌─── 🎀 𝗧𝗨𝗙𝗔 𝗣𝗘𝗡𝗗𝗜𝗡𝗚 🎀 ───\n│\n├ ✅ No pending requests found!\n├ 🌟 All clear and up to date!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───",
+      approveAllSuccess: "┌─── 🎀 𝗧𝗨𝗙𝗔 𝗢𝗣𝗘𝗥𝗔𝗧𝗜𝗢𝗡 🎀 ───\n│\n├ 🌠 Successfully approved ALL 『%1』 threads!\n│\n├ ⚠️  If any problem, contact: SOHAN\n│\n└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───"
     } 
   },
 
@@ -65,9 +65,9 @@ module.exports = {
       } else {
         const prefix = global.utils.getPrefix(group.threadID);
         api.sendMessage(
-`┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───
+`┌─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───
 │
-├ 🤖 TANISHA BOT successfully activated!
+├ 🤖 TUFA BOT successfully activated!
 ├ 📛 Group: ${group.name}
 ├ ⚡ Prefix: ${prefix}
 ├ 👤 Approved By: ${approverName}
@@ -75,7 +75,7 @@ module.exports = {
 ├ 🕐 Time: ${bangladeshTime.time}
 ├ 📆 Day: ${bangladeshTime.day}
 │
-└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───`,
+└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───`,
           group.threadID
         );
       }
@@ -113,7 +113,7 @@ module.exports = {
       });
 
       return api.sendMessage(
-`┌─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗣𝗘𝗡𝗗𝗜𝗡𝗚 🎀 ───
+`┌─── 🎀 𝗧𝗨𝗙𝗔 𝗣𝗘𝗡𝗗𝗜𝗡𝗚 🎀 ───
 │
 ├ 👤 Admin: ${adminName}
 ├ 📊 Total: ${list.length}
@@ -126,7 +126,7 @@ ${msg}
 ├ ➤ Cancel: c 1 2
 ├ ➤ Approve All: -all
 │
-└─── 🎀 𝗧𝗔𝗡𝗜𝗦𝗛𝗔 𝗕𝗢𝗧 🎀 ───`,
+└─── 🎀 𝗧𝗨𝗙𝗔 𝗕𝗢𝗧 🎀 ───`,
         event.threadID,
         (err,info)=>{
           global.GoatBot.onReply.set(info.messageID,{
@@ -141,4 +141,3 @@ ${msg}
     }
   }
 };
-v
