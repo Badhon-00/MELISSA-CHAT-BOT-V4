@@ -10,7 +10,7 @@ module.exports = async function (usersData, threadsData, event) {
 	// ———————————— CHECK THREAD DATA ———————————— //
 	if (threadID) {
 		try {
-			if (global.temp.createThreadDataError.includes(threadID))
+			if (global.temp.createThreadDataError.has(threadID))
 				return;
 
 			const findInCreatingThreadData = creatingThreadData.find(t => t.threadID == threadID);
@@ -27,7 +27,7 @@ module.exports = async function (usersData, threadsData, event) {
 		}
 		catch (err) {
 			if (err.name != "DATA_ALREADY_EXISTS") {
-				global.temp.createThreadDataError.push(threadID);
+				global.temp.createThreadDataError.add(threadID);
 				log.err("DATABASE", getText("handlerCheckData", "cantCreateThread", threadID), err);
 			}
 		}
